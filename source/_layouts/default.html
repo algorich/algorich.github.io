@@ -1,0 +1,13 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body>
+<div class="alg-wrapper">
+  {% include navigation.html %}
+
+  {{ content | expand_urls: root_url }}
+
+  {% include footer.html %}
+  {% include after_footer.html %}
+</div>
+</body>
+</html>

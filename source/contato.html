@@ -1,0 +1,66 @@
+---
+layout: default
+title: Contato
+description: Entre em contato conosco!
+id: contato
+---
+
+<!-- CONTENT BEGIN -->
+<div id="alg-page-content">
+
+  <!-- MAP BEGIN -->
+  <address class="alg-map">
+    <!-- GOOGLE MAPS BEGIN -->
+    <div id="googlemaps-container-top"></div>
+    <div id="googlemaps" class="google-map google-map-full"></div>
+    <div id="googlemaps-container-bottom"></div>
+    <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="javascripts/libs/jquery.gmap.min.js"></script>
+    <script type="text/javascript">
+      $('#googlemaps').gMap({
+        maptype: 'ROADMAP',
+        scrollwheel: false,
+        zoom: 15,
+        markers: [
+          {
+            address: 'Rua Dr. Herculano Aquino, 119 - Jardim Flamboyant I, Campos dos Goytacazes - RJ',
+            html: '',
+            popup: false,
+          }
+        ]
+      });
+    </script>
+    <!-- GOOGLE MAPS END -->
+  </address>
+  <!-- MAP END -->
+
+  <!-- ABOUT BEGIN -->
+  <section class="clerfix alg-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <header class="alg-section-header">
+            <h2>Informações de contato</h2>
+
+            <address>
+              Rua Dr. Herculano Aquino, 119 - Jardim Flamboyant I<br>
+              Campos dos Goytacazes - RJ - Brasil - 28015-200<br>
+              <hr>
+              Telefone: <a href="tel:2227240503">(22) 2724-0503</a><br>
+              Email: <a href="mailto:contato@algorich.com.br">contato@algorich.com.br</a>
+            </address>
+          </header>
+        </div>
+
+        <div class="col-md-8">
+          <header class="alg-section-header">
+            <h2>Como podemos te ajudar?</h2>
+          </header>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ABOUT END -->
+
+</div>
+<!-- CONTENT END -->

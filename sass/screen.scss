@@ -1,0 +1,736 @@
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-primary {
+    -webkit-transition: all 100ms ease-out;
+       -moz-transition: all 100ms ease-out;
+         -o-transition: all 100ms ease-out;
+            transition: all 100ms ease-out;
+
+    color: #2ecc71;
+    border: 3px solid #2ecc71;
+    background: transparent;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: #2ecc71;
+    border-color: #2ecc71;
+}
+
+/*
+** Page header
+*/
+
+#alg-page-header {
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+
+    background: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+#alg-page-header #alg-main-navigation ul {
+    float: right;
+}
+
+#alg-page-header .alg-brand img {
+    display: block;
+
+    margin-top: -10px;
+}
+
+/*
+** Main navigation
+*/
+
+#alg-main-navigation > ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    border-right: 1px solid #f1f1f1;
+}
+
+#alg-main-navigation > ul > li {
+    float: left;
+
+    border-left: 1px solid #f1f1f1;
+}
+
+#alg-main-navigation > ul > li > a {
+    -webkit-transition: all 100ms ease-out;
+       -moz-transition: all 100ms ease-out;
+         -o-transition: all 100ms ease-out;
+            transition: all 100ms ease-out;
+
+    padding: 33px 25px;
+    display: block;
+
+    color: #3b3b3b;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#alg-main-navigation > ul > li > a:hover,
+#alg-main-navigation > ul > li.active > a {
+    color: #2ecc71;
+    box-shadow: inset 0 5px #2ecc71;
+}
+
+#alg-main-navigation > ul > li.active > a {
+    background: rgba(0, 0, 0, 0.01);
+}
+
+#alg-main-navigation .dropdown-menu a {
+    padding: 10px 35px;
+    font-size: 16px;
+}
+
+#alg-main-navigation .dropdown-menu > .active > a {
+    background: #2ecc71;
+}
+
+/*
+** Page content
+*/
+
+#alg-page-content {
+    padding-top: 80px;
+}
+
+/*
+** Home highlight & Page highlight
+*/
+
+.alg-home-highlight, .alg-page-highlight {
+    padding: 100px 0;
+
+    color: #fff;
+    background: #2980b9;
+}
+
+.alg-home-highlight h2,
+.alg-home-highlight h3,
+.alg-page-highlight h2,
+.alg-page-highlight h3 {
+    margin: 0;
+    font-weight: 300;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3),
+        0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.alg-home-highlight h2,
+.alg-page-highlight h2 {
+    margin-bottom: 40px;
+}
+
+.alg-home-highlight h2 {
+    font-size: 62px;
+    text-transform: uppercase;
+}
+
+.alg-page-highlight h2 {
+    font-size: 42px;
+}
+
+/*
+** Section
+*/
+
+.alg-section-header h2 {
+    margin: 0;
+    padding: 40px 0;
+
+    color: #555;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+/*
+** Text block
+*/
+
+.alg-text-block p {
+    margin-bottom: 40px;
+
+    color: #555;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.alg-text-block p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+** Home services
+*/
+
+.alg-home-services {
+    padding-bottom: 30px;
+}
+
+.alg-home-services .alg-box {
+    min-height: 465px;
+}
+
+/*
+** Box
+*/
+
+.alg-box {
+    -webkit-transition: all 100ms ease-out;
+       -moz-transition: all 100ms ease-out;
+         -o-transition: all 100ms ease-out;
+            transition: all 100ms ease-out;
+
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+
+    color: #3b3b3b;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0 ,0, 0.175);
+}
+
+a.alg-box:hover {
+    color: #3b3b3b;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    box-shadow: 0 16px 12px rgba(0, 0 ,0, 0.175);
+}
+
+.alg-box > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.alg-box > h3 {
+    margin: 40px 0 0 0;
+
+    color: #2ecc71;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.alg-box > h3:after {
+    margin: 20px 0;
+    display: block;
+    content: "";
+    width: 20%;
+    height: 5px;
+
+    background: #2ecc71;
+}
+
+.alg-box p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*
+** Customers list
+*/
+
+.alg-customers-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.alg-customers-list li {
+    margin-bottom: 30px;
+}
+
+.alg-customers-list img {
+    max-width: 100%;
+    height: auto;
+
+    opacity: 0.8;
+}
+
+/*
+** Home testimonials
+*/
+
+.alg-home-testimonials {
+    padding-bottom: 20px;
+
+    background: #f1f1f1;
+}
+
+.alg-home-testimonials .container {
+    position: relative;
+}
+
+/*
+** Testimonials list
+*/
+
+.alg-testimonials-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.alg-testimonials-list blockquote {
+    padding: 40px;
+    width: 600px;
+    height: 220px;
+    margin: 0 auto 20px auto;
+
+    color: #555;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 4px;
+    border: 0;
+    background: #fff;
+    box-shadow: 0 5px 0 #2ecc71,
+        0 6px 22px rgba(0, 0 ,0, 0.175);
+}
+
+.alg-testimonials-list blockquote:before {
+    margin-top: 180px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    left: calc(50% - 20px);
+    position: absolute;
+
+    border: 20px solid #2ecc71;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.alg-testimonials-list h3 {
+    font-weight: 800;
+}
+
+.alg-testimonials-list h4 {
+    color: #555;
+    font-size: 14px;
+}
+
+/*
+** Bx slider
+*/
+
+.bx-pager {
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.bx-pager .bx-pager-item {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.bx-pager .bx-pager-item:first-child {
+    margin-left: 0;
+}
+
+.bx-pager .bx-pager-item a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    text-indent: -444px;
+
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.175);
+}
+
+.bx-pager .bx-pager-item a.active {
+    background: #2a6496;
+}
+
+.bx-controls-direction {
+    margin-top: -250px;
+    position: absolute;
+    width: 100%;
+}
+
+.bx-controls-direction a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+
+    color: #2980b9;
+    font-size: 38px;
+    text-align: center;
+}
+
+.bx-controls-direction a.bx-next {
+    float: right;
+}
+
+/*
+** About
+*/
+
+.alg-about {
+    padding: 40px 0;
+}
+
+.alg-about .alg-box {
+    margin-bottom: 40px;
+}
+
+.alg-about .alg-box h3 {
+    margin-top: 0;
+}
+
+/*
+** Team list
+*/
+
+.alg-team {
+    background: #f1f1f1;
+}
+
+.alg-team-list {
+    list-style: none;
+}
+
+.alg-team-list li {
+    margin-bottom: 40px;
+}
+
+.alg-team-list h3 {
+    color: #2ecc71;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.alg-team-list .alg-team-user {
+    margin: 55px 0;
+}
+
+.alg-team-list .alg-team-user span {
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+
+    color: #2ecc71;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #2ecc71;
+}
+
+.alg-team-list .alg-team-user span {
+    font-size: 74px;
+}
+
+/*
+** Footer
+*/
+
+#alg-page-footer {
+    padding: 40px 0;
+
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    background: #2e3234;
+}
+
+#alg-page-footer .col-md-4 {
+    min-height: 200px;
+}
+
+#alg-page-footer a {
+    color: #fff;
+}
+
+#alg-page-footer hr {
+    margin: 20px 0;
+    width: 60%;
+
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#alg-page-footer h2 {
+    margin: 0 0 20px 0;
+
+    font-weight: 300;
+}
+
+#alg-page-footer ul {
+    padding-left: 20px;
+
+    list-style-type: square;
+}
+
+/*
+** Social links
+*/
+
+.alg-social-links {
+    padding: 0 !important;
+
+    list-style: none !important;
+}
+
+.alg-social-links i {
+    font-size: 16px;
+}
+
+.alg-social-links .btn {
+    border: 2px solid #fff;
+}
+
+.alg-social-links .alg-facebook a {
+    background: #3b5998;
+}
+
+.alg-social-links .alg-twitter a {
+    background: #4099ff;
+}
+
+.alg-social-links .alg-github a {
+    background: #7292a2;
+}
+
+/*
+** Info
+*/
+
+.alg-info {
+    padding: 40px 0;
+
+    background: #f1f1f1;
+}
+
+.alg-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.alg-info .alg-section-header h2 {
+    padding-top: 0;
+    line-height: 120%;
+
+    font-weight: 800;
+}
+
+.alg-info hr {
+    margin: 60px 0;
+}
+
+.alg-info .btn {
+    margin: 40px auto 0 auto;
+    width: 60%;
+    display: block;
+
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/*
+** Features list
+*/
+
+.alg-features-list {
+    margin-top: 20px;
+}
+
+.alg-features-list-icon {
+    margin: 0 auto 40px auto;
+    width: 150px;
+    height: 150px;
+
+    color: #2ecc71;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #2ecc71;
+}
+
+.alg-features-list-icon i {
+    padding-top: 35px;
+
+    font-size: 72px;
+}
+
+.alg-features-list h3 {
+    margin-bottom: 20px;
+
+    color: #2ecc71;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/*
+** Price
+*/
+
+.alg-price {
+    color: #2ecc71;
+}
+
+.alg-price span {
+    display: block;
+    float: left;
+    line-height: 100%;
+}
+
+.alg-price .alg-price-super,
+.alg-price .alg-price-sub {
+    margin-top: 20px;
+    width: 105px;
+
+    font-size: 22px;
+}
+
+.alg-price .alg-price-sub {
+    margin: 50px 0 0 -105px;
+    float: left;
+
+    font-size: 32px;
+    text-align: right;
+}
+
+.alg-price .alg-price-val {
+    font-size: 122px;
+}
+
+.alg-price .alg-price-cents {
+    margin-top: 20px;
+
+    font-size: 22px;
+}
+
+/*
+** Sidebar
+*/
+
+#alg-sidebar {
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 100%;
+    z-index: 1000;
+    overflow: hidden;
+
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 6px 0 12px rgba(0, 0, 0, 0.175)
+}
+
+#alg-sidebar header {
+    width: 700px;
+    height: 60px;
+    position: relative;
+}
+
+#alg-sidebar header h2 {
+    margin: 0;
+    padding: 10px 20px;
+
+    font-weight: 300;
+}
+
+#alg-sidebar header button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+    font-size: 26px;
+    border: 0;
+    background: transparent;
+}
+
+#alg-sidebar .alg-sidebar-content {
+    width: 700px;
+    position: relative;
+    height: calc(100% - 55px);
+    overflow: auto;
+}
+
+#alg-sidebar .alg-sidebar-content-inner {
+    padding: 20px 20px 40px 20px;
+}
+
+#alg-sidebar .alg-sidebar-help .btn {
+    margin: 20px auto 0 auto;
+    width: 50%;
+
+    font-size: 16px;
+}
+
+/*
+** Shadow overlay
+*/
+
+#alg-shadow-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/*
+** Expertises
+*/
+
+.alg-expertises .alg-box {
+    min-height: 550px;
+}
+
+/*
+** Curriculum
+*/
+
+.alg-curriculum {
+    margin-top: 40px;
+
+    background: #f1f1f1;
+}
+
+/*
+** Map
+*/
+
+#googlemaps {
+    height: 334px;
+}
+
+/*
+** Banners
+*/
+
+#alg-home-banner {
+    background: #2980b9 url('../images/home_banner.png') no-repeat center;
+}
+
+#alg-algorich-dev-banner {
+    background: #2980b9 url('../images/algorich_dev_banner.png') no-repeat center;
+}
+
+#alg-algorich-start-banner {
+    background: #2980b9 url('../images/algorich_start_banner.png') no-repeat center;
+}
+
+#alg-algorich-pages-banner {
+    background: #2980b9 url('../images/algorich_pages_banner.png') no-repeat center;
+}
+
+#alg-about-banner {
+    background: #2980b9 url('../images/about_banner.png') no-repeat center;
+}
