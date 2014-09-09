@@ -13,10 +13,19 @@ html, body, h1, h2, h3, h4, h5 {
     background: transparent;
 }
 
-.btn-primary:hover {
-    color: #fff;
-    background: #2ecc71;
-    border-color: #2ecc71;
+.btn-primary {
+
+    &:hover {
+        color: #fff;
+        background: #2ecc71;
+        border-color: #2ecc71;
+    }
+
+    &:focus {
+        color: #fff;
+        background: #2ecc71;
+        border-color: #2ecc71;
+    }
 }
 
 /*
@@ -709,6 +718,17 @@ a.alg-box:hover {
     background: #f1f1f1;
 }
 
+.alg-work-submmit {
+    width: 100%;
+    margin: 15px 0 20px 0;
+    padding: 5px 0;
+}
+
+.alg-form-select,
+.alg-form-input {
+    margin-bottom: 10px;
+}
+
 /*
 ** Map
 */
@@ -743,4 +763,16 @@ a.alg-box:hover {
 
 #alg-team-banner {
     background: #2980b9 url('../images/team_banner.png') no-repeat center;
+}
+
+/*
+** Contact
+*/
+
+.alg-input {
+    margin-bottom: 10px;
+}
+
+.alg-actions {
+    margin: 20px 0;
 }
