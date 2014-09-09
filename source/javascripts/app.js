@@ -32,3 +32,12 @@ function sidebarToggle () {
 $(function () {
     $.stellar({ horizontalScrolling: false });
 });
+
+/*
+** Tooltip
+*/
+
+$(function() {
+// ALGORICH: changed default behaviour from template.
+$('.tip').tooltip({ html: true });
+});
