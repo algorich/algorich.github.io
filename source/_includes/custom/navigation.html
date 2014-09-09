@@ -1,3 +1,4 @@
+<!-- HEADER BEGIN -->
 <header id="alg-page-header" class="clearfix">
   <div class="container">
 
@@ -8,25 +9,35 @@
     </h1>
 
     <!-- MAIN NAVIGATION BEGIN -->
-    <nav role="navigation" id="alg-main-navigation" class="col-md-9">
+    <nav id="alg-main-navigation" class="col-md-9">
       <ul class="clearfix">
-        <li class="{% if page.id == 'principal' %}active{% endif %}"><a href="index.html">Principal</a></li>
-        <li class="{% if page.id == 'quem-somos' %}active{% endif %}"><a href="quem-somos.html">Quem somos</a></li>
-        <li class="dropdown">
+        <li class="{% if page.id == 'principal' %}active{% endif %}">
+          <a href="index.html">Principal</a>
+        </li>
+
+        <li class="{% if page.id == 'quem-somos' %}active{% endif %}">
+          <a href="quem-somos.html">Quem somos</a>
+        </li>
+        <li class="dropdown {% if page.id == 'algorich-dev' or page.id == 'algorich-start' or page.id == 'algorich-pages' %}active{% endif %}">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços</a>
 
           <ul class="dropdown-menu" role="menu">
-            <li class="{% if page.id == 'algorich-dev' %}active{% endif %}"><a href="algorich-dev.html">Algorich Dev</a></li>
-            <li class="{% if page.id == 'algorich-start' %}active{% endif %}"><a href="algorich-start.html">Algorich Start</a></li>
-            <li class="{% if page.id == 'algorich-pages' %}active{% endif %}"><a href="algorich-pages.html">Algorich Pages</a></li>
+            <li><a href="algorich-dev.html">Algorich Dev</a></li>
+            <li><a href="algorich-start.html">Algorich Start</a></li>
+            <li><a href="algorich-pages.html">Algorich Pages</a></li>
           </ul>
         </li>
-        <li><a href="#">Blog</a></li>
-        <li class="{% if page.id == 'trabalhe-conosco' %}active{% endif %}"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
-        <li class="{% if page.id == 'contato' %}active{% endif %}"><a href="contato.html">Contato</a></li>
+        <li><a href="http://blog.algorich.com.br/">Blog</a></li>
+        <li class="{% if page.id == 'trabalhe-conosco' %}active{% endif %}">
+          <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+        </li>
+        <li class="{% if page.id == 'contato' %}active{% endif %}">
+          <a href="contato.html">Contato</a>
+        </li>
       </ul>
     </nav>
-    <!-- MAINA NAVIGATION END -->
+    <!-- MAIN NAVIGATION END -->
 
   </div>
 </header>
+<!-- HEADER END -->
