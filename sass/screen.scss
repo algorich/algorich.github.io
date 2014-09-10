@@ -511,6 +511,10 @@ a.alg-box:hover {
     font-size: 16px;
 }
 
+.alg-social-links li {
+    margin-bottom: 10px;
+}
+
 .alg-social-links .btn {
     border: 2px solid #fff;
 }
@@ -786,4 +790,63 @@ a.alg-box:hover {
 
 .alg-actions {
     margin: 20px 0;
+}
+
+/*
+** =============================================================================
+*/
+
+@media screen and (max-width: 768px) {
+    #alg-page-header {
+        position: relative;
+    }
+
+    #alg-page-content {
+        padding-top: 0;
+    }
+
+    .alg-home-highlight,
+    .alg-page-highlight {
+        padding: 50px 0;
+    }
+
+    .alg-home-highlight h2,
+    .alg-section-header h2 {
+        font-size: 32px;
+    }
+
+    .alg-home-services .alg-box,
+    .alg-home-services .alg-box:hover {
+        -webkit-transition: none;
+           -moz-transition: none;
+             -o-transition: none;
+                transition: none;
+
+        margin-bottom: 20px;
+    }
+
+    .alg-testimonials-list blockquote {
+        padding: 10px;
+        width: 80%;
+        height: 260px;
+
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .alg-testimonials-list blockquote:before {
+        margin-top: 250px;
+    }
+
+    .bx-controls-direction {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 1030px) {
+
 }
