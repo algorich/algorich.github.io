@@ -22,9 +22,17 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços</a>
 
           <ul class="dropdown-menu" role="menu">
-            <li><a href="algorich-dev.html">Algorich Dev</a></li>
-            <li><a href="algorich-start.html">Algorich Start</a></li>
-            <li><a href="algorich-pages.html">Algorich Pages</a></li>
+            <li class="{% if page.id == 'algorich-dev' %}active{% endif %}">
+              <a href="algorich-dev.html">Algorich Dev</a>
+            </li>
+
+            <li class="{% if page.id == 'algorich-start' %}active{% endif %}">
+              <a href="algorich-start.html">Algorich Start</a>
+            </li>
+
+            <li class="{% if page.id == 'algorich-pages' %}active{% endif %}">
+              <a href="algorich-pages.html">Algorich Pages</a>
+            </li>
           </ul>
         </li>
         <li><a href="http://blog.algorich.com.br/" target="_blank">Blog</a></li>
