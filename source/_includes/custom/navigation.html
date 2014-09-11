@@ -50,6 +50,29 @@
     </nav>
     <!-- MAIN NAVIGATION END -->
 
+  <!-- MOBILE NAVIGATION BEGIN -->
+  <select id="alg-mobile-navigation" class="form-control">
+    <option value="index.html">Principal</option>
+    <option value="quem-somos.html">Quem somos</option>
+    <optgroup label="Serviços">
+      <option value="algorich-dev.html">Algorich Dev</option>
+      <option value="algorich-start.html">Algorich Start</option>
+      <option value="algorich-pages.html">Algorich Pages</option>
+    </optgroup>
+    <option value="http://blog.algorich.com.br/">Blog</option>
+    <option value="trabalhe-conosco.html">Trabalhe Conosco</option>
+    <option value="contato.html">Contato</option>
+  </select>
+  <!-- MOBILE NAVIGATION END -->
+
   </div>
 </header>
 <!-- HEADER END -->
+
+<script>
+    $(function () {
+        $('#alg-mobile-navigation').change(function () {
+            window.location = $(this).find('option:selected').val();
+        });
+    });
+</script>
