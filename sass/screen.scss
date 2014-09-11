@@ -85,6 +85,20 @@ html, body, h1, h2, h3, h4, h5 {
     border: 1px solid rgba(0,0,0,0.3);
 }
 
+#alg-mobile-navigation {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+    margin-top: 15px;
+    position: absolute;
+
+    color: transparent;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
 #alg-main-navigation > ul > li {
     float: left;
 
