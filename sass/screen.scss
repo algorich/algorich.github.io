@@ -55,6 +55,8 @@ html, body, h1, h2, h3, h4, h5 {
 
 #alg-page-header .alg-brand img {
     display: block;
+    max-width: 100%;
+    height: auto;
 
     margin-top: -10px;
 }
@@ -69,6 +71,18 @@ html, body, h1, h2, h3, h4, h5 {
 
     list-style: none;
     border-right: 1px solid #f1f1f1;
+}
+
+#alg-main-navigation-btn {
+    margin-top: 13px;
+    padding: 6px 12px;
+    display: block;
+    float: right;
+    
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
 }
 
 #alg-main-navigation > ul > li {
@@ -418,6 +432,7 @@ a.alg-box:hover {
 }
 
 .alg-team-list {
+    padding: 0;
     list-style: none;
 }
 
@@ -512,7 +527,7 @@ a.alg-box:hover {
 }
 
 .alg-social-links li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .alg-social-links .btn {
@@ -811,8 +826,12 @@ a.alg-box:hover {
     }
 
     .alg-home-highlight h2,
-    .alg-section-header h2 {
+    .alg-page-highlight h2 {
         font-size: 32px;
+    }
+
+    .alg-section-header h2 {
+        font-size: 22px;
     }
 
     .alg-home-services .alg-box,
@@ -822,7 +841,7 @@ a.alg-box:hover {
              -o-transition: none;
                 transition: none;
 
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
     }
 
     .alg-testimonials-list blockquote {
@@ -840,6 +859,28 @@ a.alg-box:hover {
 
     .bx-controls-direction {
         display: none;
+    }
+
+    .alg-text-block p {
+        font-size: 18px;
+    }
+
+    .alg-info {
+        text-align: center;
+    }
+
+    .alg-info img {
+        width: 60%;
+    }
+
+    .alg-info hr {
+        margin: 30px 0;
+    }
+
+    .alg-info .btn {
+        width: 90%;
+
+        font-size: 16px;
     }
 }
 
