@@ -821,6 +821,10 @@ a.alg-box:hover {
     margin: 20px 0;
 }
 
+.gmap_marker {
+    text-align: center;
+}
+
 /*
 ** =============================================================================
 */
@@ -980,7 +984,6 @@ a.alg-box:hover {
         padding-bottom: 20px;
     }
 }
-
 
 @media screen and (max-width: 1030px) {
     #alg-main-navigation > ul > li > a {
