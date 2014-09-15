@@ -78,7 +78,7 @@ html, body, h1, h2, h3, h4, h5 {
     padding: 6px 12px;
     display: block;
     float: right;
-    
+
     font-size: 18px;
     text-align: center;
     border-radius: 3px;
@@ -900,8 +900,96 @@ a.alg-box:hover {
 
 @media screen and (max-width: 992px) {
 
+    .alg-box img {
+        margin: 0 auto;
+    }
+
+    #alg-page-header {
+        position: relative;
+    }
+
+    #alg-page-content {
+        padding-top: 0;
+    }
+
+    .alg-home-highlight,
+    .alg-page-highlight {
+        padding: 50px 0;
+    }
+
+    .alg-home-highlight h2,
+    .alg-page-highlight h2 {
+        font-size: 52px;
+    }
+
+    .alg-section-header h2 {
+        font-size: 32px;
+    }
+
+    .alg-home-services .alg-box,
+    .alg-home-services .alg-box:hover {
+        -webkit-transition: none;
+           -moz-transition: none;
+             -o-transition: none;
+                transition: none;
+
+        margin: 0 0 20px 0;
+    }
+
+    .bx-controls-direction {
+        display: none;
+    }
+
+    .alg-team-list {
+        li:not(:last-child) {
+            height: 400px;
+        }
+    }
+
+    .alg-text-block p {
+        font-size: 18px;
+    }
+
+    .alg-about .alg-box {
+        margin: 40px 0;
+    }
+
+    .alg-info {
+        text-align: center;
+
+        .alg-section .col-md-3 {
+            float: none !important;
+        }
+
+        img {
+            width: 60%;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .btn {
+            width: 90%;
+
+            font-size: 25px;
+        }
+    }
+
+    .alg-features-list p {
+        padding-bottom: 20px;
+    }
 }
 
-@media screen and (max-width: 1030px) {
 
+@media screen and (max-width: 1030px) {
+    #alg-main-navigation > ul > li > a {
+        padding: 33px 14px;
+    }
+
+    .alg-social-links {
+        li {
+            padding: 0 5px;
+        }
+    }
 }
