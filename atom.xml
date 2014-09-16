@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Algorich]]></title>
-  <link href="http://algorich.com.br/atom.xml" rel="self"/>
-  <link href="http://algorich.com.br/"/>
-  <updated>2014-09-16T13:45:42-03:00</updated>
-  <id>http://algorich.com.br/</id>
+  <link href="http://algorich.github.io/atom.xml" rel="self"/>
+  <link href="http://algorich.github.io/"/>
+  <updated>2014-09-16T13:46:53-03:00</updated>
+  <id>http://algorich.github.io/</id>
   <author>
     <name><![CDATA[Algorich - http://algorich.com.br]]></name>
     

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://algorich.com.br/sitemap.xml 
+Sitemap: http://algorich.github.io/sitemap.xml 
