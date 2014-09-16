@@ -29,15 +29,10 @@ function sidebarToggle () {
 ** Paralax
 */
 
-$(function () {
-    $.stellar({ horizontalScrolling: false });
-});
+// Will not be displayed on mobile devices
 
-/*
-** Tooltip
-*/
-
-$(function() {
-// ALGORICH: changed default behaviour from template.
-$('.tip').tooltip({ html: true });
+$(function(){
+    if (jQuery.browser.mobile == false) {
+        $.stellar({ horizontalScrolling: false });
+    }
 });
