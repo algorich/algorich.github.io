@@ -825,6 +825,20 @@ a.alg-box:hover {
 ** =============================================================================
 */
 
+@media screen and (max-width: 1200px) {
+    #alg-main-navigation > ul > li > a {
+        padding: 33px 14px;
+    }
+
+    .alg-home-highlight h2 {
+        font-size: 58px;
+    }
+
+    .alg-social-links .btn span {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #alg-page-header {
         position: relative;
@@ -896,12 +910,4 @@ a.alg-box:hover {
 
         font-size: 16px;
     }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 1030px) {
-
 }
