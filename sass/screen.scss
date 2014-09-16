@@ -885,7 +885,9 @@ a.alg-box:hover {
 
     .alg-team-list {
         li:not(:last-child) {
-            height: 400px;
+            max-height: 400px;
+            min-height: 255px;
+            height: auto;
         }
     }
 
