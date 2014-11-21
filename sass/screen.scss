@@ -789,6 +789,10 @@ a.alg-box:hover {
     background: #2980b9 url('../images/home_banner.jpg') no-repeat center;
 }
 
+#alg-about-banner {
+    background: #2980b9 url('../images/about_banner.jpg') no-repeat center;
+}
+
 #alg-algorich-dev-banner {
     background: #2980b9 url('../images/algorich_dev_banner.jpg') no-repeat center;
 }
@@ -799,10 +803,6 @@ a.alg-box:hover {
 
 #alg-algorich-pages-banner {
     background: #2980b9 url('../images/algorich_pages_banner.jpg') no-repeat center;
-}
-
-#alg-about-banner {
-    background: #2980b9 url('../images/about_banner.jpg') no-repeat center;
 }
 
 #alg-team-banner {
@@ -927,6 +927,37 @@ a.alg-box:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+    #alg-home-banner {
+        background: #2980b9 url('../images/home_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #alg-about-banner {
+        background: #2980b9 url('../images/about_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #alg-algorich-dev-banner {
+        background: #2980b9 url('../images/algorich_dev_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #alg-algorich-start-banner {
+        background: #2980b9 url('../images/algorich_start_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #alg-algorich-pages-banner {
+        background: #2980b9 url('../images/algorich_pages_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #alg-team-banner {
+        background: #2980b9 url('../images/team_banner_768.jpg') no-repeat center;
+        background-size: cover;
+    }
+
     #alg-page-header {
         position: relative;
     }
