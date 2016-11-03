@@ -229,11 +229,15 @@
 
                   <fieldset>
                     <div class="col-md-6 alg-input">
-                      <input name="Field1" class="form-control" size="18" type="text" required placeholder="Digite seu nome" />
+                      <input name="Field1" class="form-control" size="255" type="text" required spellcheck="false" placeholder="Nome" />
                     </div>
 
                     <div class="col-md-6 alg-input">
-                      <input name="Field4" class="form-control" size="25" type="email" required spellcheck="false" placeholder="Digite seu e-mail"/>
+                      <input name="Field9" class="form-control" size="255" type="text" required spellcheck="false" placeholder="Sobrenome" />
+                    </div>
+
+                    <div class="col-md-6 alg-input">
+                      <input name="Field4" class="form-control" size="25" type="email" required spellcheck="false" placeholder="E-mail"/>
                     </div>
 
                     <div class="col-md-6 alg-input">
@@ -241,11 +245,72 @@
                     </div>
 
                     <div class="col-md-6 alg-input">
-                      <input name="Field7" class="form-control" size="25" type="text" spellcheck="false" placeholder="Digite seu usuário do Skype (opcional)"/>
+                      <input name="Field7" class="form-control" size="255" type="text" spellcheck="false" placeholder="Site da sua empresa ou projeto" />
+                    </div>
+
+                    <div class="col-md-6 alg-input">
+                      <select name="Field12" class="form-control" >
+                        <option value="" selected="selected">
+                          Profissão/ocupação
+                        </option>
+                        <option value="Analista">
+                          Analista
+                        </option>
+                        <option value="CEO">
+                          CEO
+                        </option>
+                        <option value="CTO">
+                          CTO
+                        </option>
+                        <option value="Desenvolvedor">
+                          Desenvolvedor
+                        </option>
+                        <option value="Diretor">
+                          Diretor
+                        </option>
+                        <option value="Empresário">
+                          Empresário
+                        </option>
+                        <option value="Gerente">
+                          Gerente
+                        </option>
+                        <option value="Investidor">
+                          Investidor
+                        </option>
+                        <option value="VP">
+                          VP
+                        </option>
+                        <option value="Outro">
+                          Outro
+                        </option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-6 alg-input">
+                      <select name="Field11" class="form-control">
+                        <option value="" selected="selected">
+                          Orçamento
+                        </option>
+                        <option value="Entre R$ 10.000 e R$ 20.000">
+                          Entre R$ 10.000 e R$ 20.000
+                        </option>
+                        <option value="Entre R$ 20.000 e R$ 40.000">
+                          Entre R$ 20.000 e R$ 40.000
+                        </option>
+                        <option value="Entre R$ 40.000 e R$ 80.000">
+                          Entre R$ 40.000 e R$ 80.000
+                        </option>
+                        <option value="Entre R$ 80.000 e R$ 160.000">
+                          Entre R$ 80.000 e R$ 160.000
+                        </option>
+                        <option value="Acima de R$ 160.000">
+                          Acima de R$ 160.000
+                        </option>
+                      </select>
                     </div>
 
                     <div class="col-md-12">
-                      <textarea name="Field3" class="form-control" required spellcheck="true" rows="7" placeholder="Digite sua mensagem"></textarea>
+                      <textarea name="Field3" class="form-control" required spellcheck="true" rows="7" placeholder="Fale um pouco sobre o seu projeto"></textarea>
                     </div>
 
                     <div style="display: none">
